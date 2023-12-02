@@ -120,4 +120,4 @@ async def info(ctx, count: int = 10):
     invite_link = await ctx.channel.create_invite(max_uses=1, unique=True)
     await ctx.send(f"Server Invite: https://discord.com/invite/duFzfbTJ6v")
     
-bot.run("MTE3ODY5MzM5Mzk1NDY0ODEwNA.G_06DX.YkgSerD1eCqcQyC19xGd7ZxF6sbDmbM2EsxH6U")
+bot.run("your_token")
